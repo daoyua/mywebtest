@@ -21,5 +21,9 @@ public class ResponseServlet extends HttpServlet {
 
         String realPath = getServletContext().getRealPath("");
         System.out.println(realPath);
+        //重定向
+        response.sendRedirect("success.html");
+        //跳转转发
+//        request.getRequestDispatcher("success.html").forward(request,response);
     }
 }
