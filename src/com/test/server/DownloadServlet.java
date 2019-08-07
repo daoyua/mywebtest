@@ -18,6 +18,7 @@ public class DownloadServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html ;charset=UTF-8");
         String filename = request.getParameter("filename");
 //        filename=new String(filename.getBytes("ISO-8859-1"),"UTF-8");
         String header = request.getHeader("User-Agent");
