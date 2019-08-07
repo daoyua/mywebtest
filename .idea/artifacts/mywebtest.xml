@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="mywebtest:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/mywebtest_war_exploded</output-path>
+  <artifact type="exploded-war" name="mywebtest">
+    <output-path>$PROJECT_DIR$/out/artifacts/mywebtest</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -28,6 +28,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/../apache-tomcat-7.0.52/lib/annotations-api.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../apache-tomcat-7.0.52/lib/catalina-tribes.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../apache-tomcat-7.0.52/lib/tomcat7-websocket.jar" />
+          <element id="library" level="project" name="lib" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="mywebtest/web/Web" />
